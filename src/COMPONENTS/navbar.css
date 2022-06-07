@@ -1,0 +1,155 @@
+.navbar{
+    color: #d1a102;
+    display: flex;
+    /* border: 2px solid salmon; */
+    width: 35%;
+    justify-content: space-between;
+  }
+
+  .nameontop{
+    font-size: 30px;
+    margin-bottom: 2%;
+    /* border: 2px solid blue; */
+    width: 80%;
+    display: flex;
+    color: #d1a102;
+    flex-direction:row;
+    justify-content: space-between;
+  }
+  a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+   }
+
+   a.active{
+color:#d1a102 ;
+
+  }
+
+   
+   /*================ for hover effects on navbar ==============*/
+  .navs{
+    font-size: 25px;
+      cursor: pointer;
+      position: relative;
+  }
+  .navs:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #d1a102;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .navs:hover:before {
+    visibility: visible;
+    transform: scaleX(1);
+  }
+.navs:hover{
+    transform: scale(1.2,1.2);
+      transition: transform 0.5s;
+}
+
+  /* =================================== */
+
+
+
+
+
+
+
+
+
+  @media only screen and (max-width: 600px) {
+    .nameontop{
+      font-size: 20px;
+      /* border: 2px solid blue; */
+      width: 100%;
+
+    }
+
+    .navbar{
+      color: #d1a102;
+      display: flex;
+      /* border: 2px solid salmon; */
+      width: 60%;
+      justify-content: space-between;
+    }
+
+    .navs{
+      font-size: 15px;
+    }
+  }
+
+  @media only screen and (min-width: 600px)
+  {
+    .nameontop{
+      font-size: 25px;
+      /* border: 2px solid blue; */
+      width: 100%;
+
+    }
+    .navs{
+      font-size: 20px;
+    }
+
+    .navbar{
+      width: 60%;
+    }
+  }
+
+  @media only screen and (min-width: 768px)
+  {
+
+    .nameontop{
+      font-size: 30px;
+    }
+    .navbar{
+      width: 60%;
+    }
+    
+    .navs{
+      font-size: 25px;
+    }
+
+  }
+
+  @media only screen and (min-width: 992px) {
+
+    .nameontop{
+      font-size: 30px;
+      width: 80%;
+      /* border: 2px solid green; */
+    }
+    .navbar{
+      /* border: 2px solid white; */
+      width: 60%;
+    }
+    
+    .navs{
+      font-size: 25px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+
+  .nameontop{
+    font-size: 35px;
+    width: 80%;
+    /* border: 2px solid rgb(255, 255, 255); */
+  }
+  .navbar{
+    /* border: 2px solid rgb(222, 1, 1); */
+    width: 55%;
+  }
+  
+  .navs{
+    font-size: 30px;
+  }  
+
+}
