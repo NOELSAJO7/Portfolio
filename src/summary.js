@@ -3,6 +3,7 @@ import './summary.css';
 import myimage from './images/goku.jpeg';
 
 const Summary=()=>{
+  document.title="Noel Saj|Home";
     return(
       <>
 <div className="aboutMe">

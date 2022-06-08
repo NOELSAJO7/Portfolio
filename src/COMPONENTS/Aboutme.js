@@ -1,7 +1,7 @@
 import './Aboutme.css';
 
 const Aboutme=()=>{
-
+document.title="Noel Saj|About me";
 return(
     <div>
     I am a pre-final year student pursuing B-Tech in Information Technology from NIT Srinagar.A passionate Developer and technology enthusiast.College life has made me fast and adaptive for learning new technologies.I have developed several front ends and few backends of several projects.

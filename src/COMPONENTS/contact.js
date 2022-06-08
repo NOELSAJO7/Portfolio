@@ -24,7 +24,7 @@ const Contact=()=>{
     }
 
 
-
+    document.title="Noel Saj|Contact me";
 
 
     
