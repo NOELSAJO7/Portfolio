@@ -4,8 +4,8 @@
 }
 
 .photo{
-    height:60%;
-    width: 60%;
+    /* height:60%;
+    width: 60%; */
     /* border: 20px solid rgb(9, 224, 9) ; */
     border-radius: 50%;
     /* background-color: rgb(22, 136, 236); */
@@ -15,13 +15,16 @@
 }
 
 .name{
+    margin:2%;
     /* font-family: 'Dosis', sans-serif; */
 font-family: 'Itim', cursive;
 /* font-family: 'Macondo', cursive; */
     font-size:100px;
     /* color: #d1a102; */
 }
-
+.designation{
+    margin:2%;
+}
 .photo img{
     position:'absolute';
     width: 100%;
@@ -38,11 +41,12 @@ font-family: 'Itim', cursive;
     /* border: 5px solid rgb(71, 0, 74); */
     color: aliceblue;
     /* color: #d1a102; */
-    height: 100%;
-    width: 100%;
+    /* height: 100%;
+    width: 100%; */
 
 }
 .h2{  
+ margin: 3%;   
 font-family: 'Dosis', sans-serif;
 text-align: center;
 font-size: 30px;
@@ -58,6 +62,7 @@ font-size: 30px;
 } */
 
 .resumedownload{
+    margin: 2%;
     background-color:black;
     color: #d1a102;
     border: none;
@@ -176,12 +181,13 @@ font-size: 30px;
   @media only screen and (min-width: 992px) {
 
     .name{
+        color: green;
         font-size:70px;
         text-align: center;
  }
 .photo{
-        height:60%;
-        width: 80%;
+        height:80%;
+        width: 60%;
         margin-top: 0;
         margin-right:2% ;
  
@@ -198,8 +204,7 @@ font-size: 30px;
 
   @media only screen and (min-width: 1200px) {
     .photo{
-        height:65%;
-        width: 85%;
+        /* height:65% */
         /* margin-top: 0; */
         margin-right:2% ;
       }
@@ -223,10 +228,10 @@ font-size: 30px;
             border-radius: 25px;
           }
 
-          .aboutMe{
+          /* .aboutMe{
 
             height: 100%;
             width: 100%;
-        }
+        } */
   }
   
