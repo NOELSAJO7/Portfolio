@@ -15,7 +15,7 @@ const Summary=()=>{
     I'm an independent creative developer and coder from Kerala,India.
   </div>
 
-  <a href="https://drive.google.com/file/d/1z4uThAGFcrbWfF_xLg0DGiIL7b4EehLt/view?usp=sharing" target="_blank" rel="noreferrer noopener"><button className="resumedownload">Download CV</button>
+  <a href="https://drive.google.com/file/d/1fT9Qv4TgJhfu2OlGrkkWx34fb4Y4oVN8/view?usp=sharing" target="_blank" rel="noreferrer noopener"><button className="resumedownload">Download CV</button>
 </a>
 </div>
   <div className="photo">
