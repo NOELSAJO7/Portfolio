@@ -1,5 +1,6 @@
 import'./contact.css';
 import './fontawesomeicon.css';
+import Button from './Button';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faEnvelope,faLocationPin,faPhone} from '@fortawesome/free-solid-svg-icons';
 
@@ -55,7 +56,7 @@ return(
     <textarea name="message" id="" cols="30" rows="10" className='label'></textarea>
    </div>
    </div>
-<button className='label' type='submit'>Send Message</button>
+<Button className='label' type='submit'>Send Message</Button>
     </form>
 </>
 );

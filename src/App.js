@@ -6,6 +6,7 @@ import Navbar from './COMPONENTS/navbar';
 import { BrowserRouter as Router ,Route,Routes} from "react-router-dom";
 import Aboutme from './COMPONENTS/Aboutme';
 import Contact from './COMPONENTS/contact';
+import Projects from './COMPONENTS/Projects';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
                <Routes>
                <Route exact path='/' element={<Summary/>}/>
                <Route exact path='aboutme' element={<Aboutme/>}/>
+               <Route exact path='projects' element={<Projects/>}/>
                <Route exact path='contactpage' element={<Contact/>}/>
                </Routes>
                </Outlinecard>

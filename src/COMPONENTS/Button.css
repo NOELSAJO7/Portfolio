@@ -1,0 +1,54 @@
+.button{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+    margin-top:10%;
+    background-color:black;
+    color: #d1a102;
+    border: none;
+    font-size: 20px;
+    width:150px;
+    height:50px;
+    border-radius: 25px;
+    font-family: 'Macondo', cursive;
+  }
+  .button:hover{
+      border: 1px solid #d1a102;
+  }
+
+
+
+  @media only screen and (max-width: 600px) {
+.button{
+    font-size: 15px;
+    width:110px;
+    height:25px;
+       }
+
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+
+    .button{
+        
+        font-size: 20px;
+        width:150px;
+        height:30px;
+           }
+    
+    
+        }
+
+  @media only screen and (min-width: 1200px) {
+    .button{
+      justify-self: end;
+            align-self:center;
+            margin-top: 10%;
+            font-size: 20px;
+            width:150px;
+            height:50px;
+            border-radius: 25px;
+          }
+  }
+  

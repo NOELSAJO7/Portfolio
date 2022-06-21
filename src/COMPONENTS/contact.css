@@ -58,20 +58,6 @@ textarea,input[type=text],input[type=email],input[type=number]
     color: whitesmoke;
 }
 
-button{
-    margin-top:2%;
-    background-color:black;
-    color: #d1a102;
-    width:fit-content;
-    padding: 2%;
-    border: none;
-    border-radius: 30px;
-}
-
-button:hover{
-    border: #d1a102 1px solid;
-}
-
 .detailmsg{
     display: flex;
     justify-content: center;
