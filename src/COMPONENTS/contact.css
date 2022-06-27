@@ -7,6 +7,10 @@ textarea,input[type=text],input[type=email],input[type=number]
     margin-bottom: 5%;
 }
 
+.btn{
+    margin-top: 10%;
+}
+
 .fonmailaddress{
     display: flex;
     /* border:4px solid blue; */

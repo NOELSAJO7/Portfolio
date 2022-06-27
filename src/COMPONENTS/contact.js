@@ -56,7 +56,7 @@ return(
     <textarea name="message" id="" cols="30" rows="10" className='label'></textarea>
    </div>
    </div>
-<Button className='label' type='submit'>Send Message</Button>
+<Button className='label btn' type='submit'>Send Message</Button>
     </form>
 </>
 );
