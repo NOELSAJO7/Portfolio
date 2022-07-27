@@ -1,6 +1,5 @@
 import'./contact.css';
 import './fontawesomeicon.css';
-import Button from './Button';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faEnvelope,faLocationPin,faPhone} from '@fortawesome/free-solid-svg-icons';
 
